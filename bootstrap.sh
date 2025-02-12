@@ -20,4 +20,4 @@
 # # kubectl apply -f .infrastructure/ingress/ingress.yml
 
 
-helm install todoapp todoapp/
+helm install todoapp .infrastructure/helm-chart/todoapp/
